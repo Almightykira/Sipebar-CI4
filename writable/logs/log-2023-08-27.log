@@ -1,0 +1,147 @@
+CRITICAL - 2023-08-27 10:01:13 --> Invalid file: "barangmasuk/modalcaribarang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barangmasuk/modalcaribarang.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/modalcaribarang', [], true)
+ 3 APPPATH\Controllers\Barangmasuk.php(110): view('barangmasuk/modalcaribarang')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->cariDataBarang()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+CRITICAL - 2023-08-27 10:01:16 --> Invalid file: "barangmasuk/modalcaribarang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barangmasuk/modalcaribarang.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/modalcaribarang', [], true)
+ 3 APPPATH\Controllers\Barangmasuk.php(110): view('barangmasuk/modalcaribarang')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->cariDataBarang()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+CRITICAL - 2023-08-27 10:01:20 --> Invalid file: "barangmasuk/modalcaribarang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barangmasuk/modalcaribarang.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/modalcaribarang', [], true)
+ 3 APPPATH\Controllers\Barangmasuk.php(110): view('barangmasuk/modalcaribarang')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->cariDataBarang()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+CRITICAL - 2023-08-27 10:02:51 --> Invalid file: "barangmasuk/modalcaribarang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barangmasuk/modalcaribarang.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/modalcaribarang', [], true)
+ 3 APPPATH\Controllers\Barangmasuk.php(110): view('barangmasuk/modalcaribarang')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->cariDataBarang()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+WARNING - 2023-08-27 11:02:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-27 11:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:02:40 --> Call to undefined method App\Models\Modelbarang::getResultArray
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Views\barangmasuk\detaildatabarang.php(15): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\detaildatabarang.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/detaildatabarang', [], true)
+ 5 APPPATH\Controllers\Barangmasuk.php(127): view('barangmasuk/detaildatabarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->detailCariBarang()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+CRITICAL - 2023-08-27 11:04:15 --> Call to undefined method App\Models\Modelbarang::getResultArray
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Views\barangmasuk\detaildatabarang.php(15): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\detaildatabarang.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/detaildatabarang', [], true)
+ 5 APPPATH\Controllers\Barangmasuk.php(127): view('barangmasuk/detaildatabarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->detailCariBarang()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+WARNING - 2023-08-27 11:04:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-27 11:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-27 15:18:09 --> mysqli_sql_exception: Duplicate entry 'F-001' for key 'PRIMARY' in C:\aplikasiskripsi\SIPEBAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\aplikasiskripsi\SIPEBAR\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\aplikasiskripsi\SIPEBAR\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\aplikasiskripsi\SIPEBAR\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\aplikasiskripsi\SIPEBAR\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\aplikasiskripsi\SIPEBAR\app\Controllers\Barangmasuk.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(932): App\Controllers\Barangmasuk->selesaiTransaksi()
+#9 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+#10 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\aplikasiskripsi\SIPEBAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\aplikasiskripsi\SIPEBAR\system\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskri...')
+#13 {main}
+CRITICAL - 2023-08-27 15:18:09 --> Duplicate entry 'F-001' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `barangmasuk` (`faktur`, `tglfaktur`, `totalharga`) VALUES (\'F-001\', \'2023-08-27\', 851000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barangmasuk` (`faktur`, `tglfaktur`, `totalharga`) VALUES (\'F-001\', \'2023-08-27\', 851000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barangmasuk` (`faktur`, `tglfaktur`, `totalharga`) VALUES (\'F-001\', \'2023-08-27\', 851000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barangmasuk` (`faktur`, `tglfaktur`, `totalharga`) VALUES (:faktur:, :tglfaktur:, :totalharga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Barangmasuk.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->selesaiTransaksi()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+WARNING - 2023-08-27 15:25:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-27 15:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-27 15:45:30 --> mysqli_sql_exception: Duplicate entry 'F-001' for key 'PRIMARY' in C:\aplikasiskripsi\SIPEBAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\aplikasiskripsi\SIPEBAR\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\aplikasiskripsi\SIPEBAR\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\aplikasiskripsi\SIPEBAR\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\aplikasiskripsi\SIPEBAR\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\aplikasiskripsi\SIPEBAR\app\Controllers\Barangmasuk.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(932): App\Controllers\Barangmasuk->selesaiTransaksi()
+#9 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+#10 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\aplikasiskripsi\SIPEBAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\aplikasiskripsi\SIPEBAR\system\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskri...')
+#13 {main}
+CRITICAL - 2023-08-27 15:45:30 --> Duplicate entry 'F-001' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `barangmasuk` (`faktur`, `tglfaktur`, `totalharga`) VALUES (\'F-001\', \'\', 300000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barangmasuk` (`faktur`, `tglfaktur`, `totalharga`) VALUES (\'F-001\', \'\', 300000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barangmasuk` (`faktur`, `tglfaktur`, `totalharga`) VALUES (\'F-001\', \'\', 300000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barangmasuk` (`faktur`, `tglfaktur`, `totalharga`) VALUES (:faktur:, :tglfaktur:, :totalharga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Barangmasuk.php(161): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->selesaiTransaksi()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')

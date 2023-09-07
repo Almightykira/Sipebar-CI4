@@ -1,0 +1,235 @@
+WARNING - 2023-08-24 06:50:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-24 06:50:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\aplikasiskripsi\SIPEBAR\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\aplikasiskripsi\SIPEBAR\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbhks', 3306, '', 0)
+#1 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\aplikasiskripsi\SIPEBAR\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\aplikasiskripsi\SIPEBAR\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 C:\aplikasiskripsi\SIPEBAR\app\Controllers\Kategori.php(27): CodeIgniter\BaseModel->paginate(5, 'kategori')
+#7 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(932): App\Controllers\Kategori->index()
+#8 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#9 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\aplikasiskripsi\SIPEBAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\aplikasiskripsi\SIPEBAR\system\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskri...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\aplikasiskripsi\SIPEBAR\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\aplikasiskripsi\SIPEBAR\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\aplikasiskripsi\SIPEBAR\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\aplikasiskripsi\SIPEBAR\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#5 C:\aplikasiskripsi\SIPEBAR\app\Controllers\Kategori.php(27): CodeIgniter\BaseModel->paginate(5, 'kategori')
+#6 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(932): App\Controllers\Kategori->index()
+#7 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 C:\aplikasiskripsi\SIPEBAR\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\aplikasiskripsi\SIPEBAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\aplikasiskripsi\SIPEBAR\system\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskri...')
+#11 {main}
+CRITICAL - 2023-08-24 06:50:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`', [], false)
+ 3 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Kategori.php(27): CodeIgniter\BaseModel->paginate(5, 'kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Kategori->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+WARNING - 2023-08-24 06:51:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:51:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:51:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:51:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:51:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Satuan::$satuan is deprecated in APPPATH\Controllers\Satuan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Satuan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:51:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Satuan::$satuan is deprecated in APPPATH\Controllers\Satuan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Satuan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:51:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Satuan::$satuan is deprecated in APPPATH\Controllers\Satuan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Satuan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:51:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Satuan::$satuan is deprecated in APPPATH\Controllers\Satuan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Satuan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:52:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:52:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:53:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:53:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:53:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-24 06:53:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 06:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-24 06:55:13 --> Undefined array key "brgkod"
+in APPPATH\Views\barangmasuk\datatemp.php on line 21.
+ 1 APPPATH\Views\barangmasuk\datatemp.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brgkod"', 'C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/datatemp', [], true)
+ 5 APPPATH\Controllers\Barangmasuk.php(25): view('barangmasuk/datatemp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->dataTemp()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+WARNING - 2023-08-24 13:41:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$kategori is deprecated in APPPATH\Controllers\Kategori.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 13:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-24 13:53:21 --> Undefined array key "brgkod"
+in APPPATH\Views\barangmasuk\datatemp.php on line 21.
+ 1 APPPATH\Views\barangmasuk\datatemp.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brgkod"', 'C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/datatemp', [], true)
+ 5 APPPATH\Controllers\Barangmasuk.php(25): view('barangmasuk/datatemp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->dataTemp()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+CRITICAL - 2023-08-24 14:01:44 --> Undefined array key "brgkod"
+in APPPATH\Views\barangmasuk\datatemp.php on line 21.
+ 1 APPPATH\Views\barangmasuk\datatemp.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brgkod"', 'C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/datatemp', [], true)
+ 5 APPPATH\Controllers\Barangmasuk.php(25): view('barangmasuk/datatemp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->dataTemp()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+CRITICAL - 2023-08-24 14:27:00 --> Undefined array key "brgkod"
+in APPPATH\Views\barangmasuk\datatemp.php on line 21.
+ 1 APPPATH\Views\barangmasuk\datatemp.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brgkod"', 'C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/datatemp', [], true)
+ 5 APPPATH\Controllers\Barangmasuk.php(25): view('barangmasuk/datatemp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->dataTemp()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+CRITICAL - 2023-08-24 14:30:45 --> Undefined array key "brgkod"
+in APPPATH\Views\barangmasuk\datatemp.php on line 21.
+ 1 APPPATH\Views\barangmasuk\datatemp.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brgkod"', 'C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/datatemp', [], true)
+ 5 APPPATH\Controllers\Barangmasuk.php(25): view('barangmasuk/datatemp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->dataTemp()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+CRITICAL - 2023-08-24 14:38:22 --> Undefined array key "brgkod"
+in APPPATH\Views\barangmasuk\datatemp.php on line 21.
+ 1 APPPATH\Views\barangmasuk\datatemp.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brgkod"', 'C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\aplikasiskripsi\\SIPEBAR\\app\\Views\\barangmasuk\\datatemp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('barangmasuk/datatemp', [], true)
+ 5 APPPATH\Controllers\Barangmasuk.php(25): view('barangmasuk/datatemp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Barangmasuk->dataTemp()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barangmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+WARNING - 2023-08-24 14:51:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Barang::$barang is deprecated in APPPATH\Controllers\Barang.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Barang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\aplikasiskripsi\\SIPEBAR\\public\\index.php')
+INFO - 2023-08-24 14:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
